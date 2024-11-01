@@ -1,0 +1,19 @@
+.item{
+
+    background-color: blueviolet;
+    width: 300px;
+    
+}
+.detail-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boton{
+    width: 200px;
+    padding: 0.4rem;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: white;
+
+}

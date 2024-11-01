@@ -1,0 +1,25 @@
+.nav-bar{
+    background-color: rgb(230, 210, 248);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.activeOption{
+    background-color: rgba(255, 8, 152, 0.247);
+    padding: 0.6rem;
+    border-radius: 1.3rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.option{
+    text-decoration: none;
+    padding: 0.6rem;
+}
+.option:hover{
+    font-size: 1.1rem;
+}
+.nav-category{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}

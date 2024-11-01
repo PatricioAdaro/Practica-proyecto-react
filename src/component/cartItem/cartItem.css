@@ -1,0 +1,11 @@
+.cartItemContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(250, 250, 250, 0.541);
+    padding: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+}
+.cartItemContent img{
+    cursor: pointer;
+}

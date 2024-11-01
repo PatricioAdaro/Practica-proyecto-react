@@ -1,0 +1,84 @@
+.emptyCart{
+    text-align: center;
+    margin-top: 50px;
+}
+.emptyCart button{
+    padding: 12px;
+    margin-top: 20px;
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(52, 36, 65);
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.emptyCart button:hover{
+    background-color: rgb(77, 53, 97) ;
+}
+
+.cartContent{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 20px;
+}
+.clear {
+    width: 150px;
+    padding: 10px;
+    background-color: rgba(196, 32, 32, 0.596);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.clear:hover{
+    background-color: red;
+}
+.cont-total-pagar{
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+}
+.pagar span{
+    position: relative;
+    z-index: 2;
+}
+.pagar{
+    position: relative;
+    overflow: hidden;
+    transition: .7s ease all;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(23, 158, 23);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.pagar::after{
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    transition: .7s ease all;
+    transform-origin: center;
+}
+.pagar:hover::after{
+    transform: scale(400);
+    background:rgb(43, 230, 43);
+}
+.total{
+    margin: 0;
+}
